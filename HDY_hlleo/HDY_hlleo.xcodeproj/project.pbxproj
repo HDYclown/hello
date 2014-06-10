@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2934F061946FAF400661979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2934F051946FAF400661979 /* Foundation.framework */; };
+		C2934F081946FAF400661979 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2934F071946FAF400661979 /* CoreGraphics.framework */; };
+		C2934F0A1946FAF400661979 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2934F091946FAF400661979 /* UIKit.framework */; };
+		C2934F101946FAF400661979 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2934F0E1946FAF400661979 /* InfoPlist.strings */; };
+		C2934F121946FAF400661979 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2934F111946FAF400661979 /* main.m */; };
+		C2934F161946FAF400661979 /* HDYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2934F151946FAF400661979 /* HDYAppDelegate.m */; };
+		C2934F181946FAF400661979 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2934F171946FAF400661979 /* Images.xcassets */; };
+		C2934F1F1946FAF400661979 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2934F1E1946FAF400661979 /* XCTest.framework */; };
+		C2934F201946FAF400661979 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2934F051946FAF400661979 /* Foundation.framework */; };
+		C2934F211946FAF400661979 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2934F091946FAF400661979 /* UIKit.framework */; };
+		C2934F291946FAF400661979 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C2934F271946FAF400661979 /* InfoPlist.strings */; };
+		C2934F2B1946FAF400661979 /* HDY_hlleoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2934F2A1946FAF400661979 /* HDY_hlleoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2934F221946FAF400661979 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2934EFA1946FAF400661979 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2934F011946FAF400661979;
+			remoteInfo = HDY_hlleo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2934F021946FAF400661979 /* HDY_hlleo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HDY_hlleo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2934F051946FAF400661979 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C2934F071946FAF400661979 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C2934F091946FAF400661979 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C2934F0D1946FAF400661979 /* HDY_hlleo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HDY_hlleo-Info.plist"; sourceTree = "<group>"; };
+		C2934F0F1946FAF400661979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2934F111946FAF400661979 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2934F131946FAF400661979 /* HDY_hlleo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HDY_hlleo-Prefix.pch"; sourceTree = "<group>"; };
+		C2934F141946FAF400661979 /* HDYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HDYAppDelegate.h; sourceTree = "<group>"; };
+		C2934F151946FAF400661979 /* HDYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDYAppDelegate.m; sourceTree = "<group>"; };
+		C2934F171946FAF400661979 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2934F1D1946FAF400661979 /* HDY_hlleoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HDY_hlleoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2934F1E1946FAF400661979 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C2934F261946FAF400661979 /* HDY_hlleoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HDY_hlleoTests-Info.plist"; sourceTree = "<group>"; };
+		C2934F281946FAF400661979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C2934F2A1946FAF400661979 /* HDY_hlleoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HDY_hlleoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2934EFF1946FAF400661979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2934F081946FAF400661979 /* CoreGraphics.framework in Frameworks */,
+				C2934F0A1946FAF400661979 /* UIKit.framework in Frameworks */,
+				C2934F061946FAF400661979 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2934F1A1946FAF400661979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2934F1F1946FAF400661979 /* XCTest.framework in Frameworks */,
+				C2934F211946FAF400661979 /* UIKit.framework in Frameworks */,
+				C2934F201946FAF400661979 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2934EF91946FAF400661979 = {
+			isa = PBXGroup;
+			children = (
+				C2934F0B1946FAF400661979 /* HDY_hlleo */,
+				C2934F241946FAF400661979 /* HDY_hlleoTests */,
+				C2934F041946FAF400661979 /* Frameworks */,
+				C2934F031946FAF400661979 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2934F031946FAF400661979 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2934F021946FAF400661979 /* HDY_hlleo.app */,
+				C2934F1D1946FAF400661979 /* HDY_hlleoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2934F041946FAF400661979 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2934F051946FAF400661979 /* Foundation.framework */,
+				C2934F071946FAF400661979 /* CoreGraphics.framework */,
+				C2934F091946FAF400661979 /* UIKit.framework */,
+				C2934F1E1946FAF400661979 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2934F0B1946FAF400661979 /* HDY_hlleo */ = {
+			isa = PBXGroup;
+			children = (
+				C2934F141946FAF400661979 /* HDYAppDelegate.h */,
+				C2934F151946FAF400661979 /* HDYAppDelegate.m */,
+				C2934F171946FAF400661979 /* Images.xcassets */,
+				C2934F0C1946FAF400661979 /* Supporting Files */,
+			);
+			path = HDY_hlleo;
+			sourceTree = "<group>";
+		};
+		C2934F0C1946FAF400661979 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2934F0D1946FAF400661979 /* HDY_hlleo-Info.plist */,
+				C2934F0E1946FAF400661979 /* InfoPlist.strings */,
+				C2934F111946FAF400661979 /* main.m */,
+				C2934F131946FAF400661979 /* HDY_hlleo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2934F241946FAF400661979 /* HDY_hlleoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2934F2A1946FAF400661979 /* HDY_hlleoTests.m */,
+				C2934F251946FAF400661979 /* Supporting Files */,
+			);
+			path = HDY_hlleoTests;
+			sourceTree = "<group>";
+		};
+		C2934F251946FAF400661979 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2934F261946FAF400661979 /* HDY_hlleoTests-Info.plist */,
+				C2934F271946FAF400661979 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2934F011946FAF400661979 /* HDY_hlleo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2934F2E1946FAF400661979 /* Build configuration list for PBXNativeTarget "HDY_hlleo" */;
+			buildPhases = (
+				C2934EFE1946FAF400661979 /* Sources */,
+				C2934EFF1946FAF400661979 /* Frameworks */,
+				C2934F001946FAF400661979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HDY_hlleo;
+			productName = HDY_hlleo;
+			productReference = C2934F021946FAF400661979 /* HDY_hlleo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2934F1C1946FAF400661979 /* HDY_hlleoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2934F311946FAF400661979 /* Build configuration list for PBXNativeTarget "HDY_hlleoTests" */;
+			buildPhases = (
+				C2934F191946FAF400661979 /* Sources */,
+				C2934F1A1946FAF400661979 /* Frameworks */,
+				C2934F1B1946FAF400661979 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2934F231946FAF400661979 /* PBXTargetDependency */,
+			);
+			name = HDY_hlleoTests;
+			productName = HDY_hlleoTests;
+			productReference = C2934F1D1946FAF400661979 /* HDY_hlleoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2934EFA1946FAF400661979 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HDY;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "黄东营";
+				TargetAttributes = {
+					C2934F1C1946FAF400661979 = {
+						TestTargetID = C2934F011946FAF400661979;
+					};
+				};
+			};
+			buildConfigurationList = C2934EFD1946FAF400661979 /* Build configuration list for PBXProject "HDY_hlleo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2934EF91946FAF400661979;
+			productRefGroup = C2934F031946FAF400661979 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2934F011946FAF400661979 /* HDY_hlleo */,
+				C2934F1C1946FAF400661979 /* HDY_hlleoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2934F001946FAF400661979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2934F101946FAF400661979 /* InfoPlist.strings in Resources */,
+				C2934F181946FAF400661979 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2934F1B1946FAF400661979 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2934F291946FAF400661979 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2934EFE1946FAF400661979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2934F161946FAF400661979 /* HDYAppDelegate.m in Sources */,
+				C2934F121946FAF400661979 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2934F191946FAF400661979 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2934F2B1946FAF400661979 /* HDY_hlleoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2934F231946FAF400661979 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2934F011946FAF400661979 /* HDY_hlleo */;
+			targetProxy = C2934F221946FAF400661979 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2934F0E1946FAF400661979 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2934F0F1946FAF400661979 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C2934F271946FAF400661979 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2934F281946FAF400661979 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2934F2C1946FAF400661979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2934F2D1946FAF400661979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2934F2F1946FAF400661979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HDY_hlleo/HDY_hlleo-Prefix.pch";
+				INFOPLIST_FILE = "HDY_hlleo/HDY_hlleo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C2934F301946FAF400661979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HDY_hlleo/HDY_hlleo-Prefix.pch";
+				INFOPLIST_FILE = "HDY_hlleo/HDY_hlleo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C2934F321946FAF400661979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HDY_hlleo.app/HDY_hlleo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HDY_hlleo/HDY_hlleo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HDY_hlleoTests/HDY_hlleoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C2934F331946FAF400661979 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HDY_hlleo.app/HDY_hlleo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HDY_hlleo/HDY_hlleo-Prefix.pch";
+				INFOPLIST_FILE = "HDY_hlleoTests/HDY_hlleoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2934EFD1946FAF400661979 /* Build configuration list for PBXProject "HDY_hlleo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2934F2C1946FAF400661979 /* Debug */,
+				C2934F2D1946FAF400661979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2934F2E1946FAF400661979 /* Build configuration list for PBXNativeTarget "HDY_hlleo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2934F2F1946FAF400661979 /* Debug */,
+				C2934F301946FAF400661979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2934F311946FAF400661979 /* Build configuration list for PBXNativeTarget "HDY_hlleoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2934F321946FAF400661979 /* Debug */,
+				C2934F331946FAF400661979 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2934EFA1946FAF400661979 /* Project object */;
+}
